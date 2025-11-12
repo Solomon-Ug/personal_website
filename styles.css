@@ -70,8 +70,12 @@ nav .active{
     font-size: 15px;
     line-height: 1.6;
     max-width: 90%;
-    
-    }
+   }
+   .about-1:hover{
+    box-shadow: 2px 0px 5px;
+    transition: 0.5s;
+    transform: scale(1.1) ;
+   }
 
 .fancy-border {
   display: inline-block;
@@ -81,6 +85,11 @@ nav .active{
               linear-gradient(to right, red, blue) border-box;
   border-radius: 5px;
     margin: 10px;
+  }
+  .fancy-border:hover{
+    box-shadow: 2px 0px 5px;
+    transition: 0.5s;
+    transform: scale(1.1) ;
   }
 .footer{
     background-color: #333;
@@ -195,9 +204,17 @@ button:hover{
     margin-left: 10%;
     display: flex;
 }
+.sample:hover{
+    transition: 0.5s;
+    transform: scale(1.05) ;
+}
 .works{
     display: flex;
     text-align: center;
+}
+.works:hover{
+    transition: 0.5s;
+    transform: scale(1.1) ;
 }
 
 .sample-1{
@@ -221,6 +238,11 @@ button:hover{
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.sample-words:hover{
+    transform:0.5s ;
+    transition:scale(1.04) ;
+    
+}
 
 footer{
     background-color: rgb(214, 150, 12);
@@ -236,6 +258,11 @@ footer{
     border-radius: 6px;
     margin-left: 4%;
     align-content: center;
+}
+.side-txt:hover{
+    box-shadow: 2px 0px 5px;
+    transition: 0.5s;
+    transform: scale(1.1) ;
 }
 .txt-1{
     align-items: left;
