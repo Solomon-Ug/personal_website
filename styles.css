@@ -257,8 +257,9 @@ footer{
 .side-txt{
     background-color: crimson;
     display: flex;
-    width: 60%;
+    width: 100%;
     border-radius: 6px;
+    content: contain;
     margin-left: 4%;
     align-content: center;
 }
@@ -269,6 +270,7 @@ footer{
 }
 .txt-1{
     align-items: left;
+    padding: 2% 2%;
 }
 
 .contact{
