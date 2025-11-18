@@ -211,6 +211,8 @@ button:hover{
 .works{
     display: flex;
     text-align: center;
+    width: 50%;
+    margin-left: 10%;
 }
 .works:hover{
     transition: 0.5s;
