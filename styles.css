@@ -200,6 +200,7 @@ button:hover{
 .sample{
     border-radius: 10px;
     padding-right: 2%;
+    width: 60%;
     padding-bottom: 4%;
     margin-left: 10%;
     display: flex;
