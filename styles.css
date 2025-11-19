@@ -33,14 +33,6 @@ nav .active{
     color: white;
 }   
 
-/*.floating-marquee {
-    overflow: hidden; /* Hide overflow 
-    white-space: nowrap; /* Prevent text wrapping 
-    width: 100%;
-    background-image: url(profile.jpg);
-    background-repeat: none;
-    background-size: cover;
-}*/
 .floating-marquee p {
     display: inline-block;
     animation: float 10s linear infinite;
@@ -211,6 +203,8 @@ button:hover{
 }
 .works{
     display: flex;
+    width: 50%;
+    margin-left: 10%
     text-align: center;
     width: 50%;
     margin-left: 10%;
