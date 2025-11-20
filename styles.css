@@ -62,8 +62,30 @@ nav.active{
     font-size: 15px;
     line-height: 1.6;
     max-width: 90%;
-    
     }
+
+.about-0:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+.about-0:active {
+    transform: scale(0.98);
+    transition: 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }   
+
+.about-1:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+.about-1:active {
+    transform: scale(0.98);
+    transition: 0.1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }   
+
 
 .fancy-border {
   display: inline-block;
